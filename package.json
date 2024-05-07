@@ -1,0 +1,19 @@
+{
+  "name": "upload-ftp",
+  "version": "1.0.8",
+  "description": "Upload the project by FTP",
+  "main": "upload.cjs",
+  "bin": {
+    "upload": "./upload.cjs"
+  },
+  "scripts": {
+    "upload": "node upload.cjs"
+  },
+  "author": "Paul Zoltán",
+  "license": "ISC",
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "child_process": "^1.0.2",
+    "glob": "^10.3.12"
+  }
+}
