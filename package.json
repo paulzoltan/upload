@@ -1,6 +1,6 @@
 {
   "name": "upload-ftp",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "Upload the project by FTP",
   "main": "upload.cjs",
   "bin": {
@@ -14,6 +14,7 @@
   "dependencies": {
     "basic-ftp": "^5.0.5",
     "child_process": "^1.0.2",
-    "glob": "^10.3.12"
+    "glob": "^10.3.12",
+    "minimist": "^1.2.8"
   }
 }
